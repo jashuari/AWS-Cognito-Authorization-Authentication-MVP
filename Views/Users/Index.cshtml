@@ -1,0 +1,53 @@
+﻿@model IEnumerable<AWS.Cognito.Authorization.Authentication.MVP.Models.User>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>User List</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a>First Name</a>
+            </th>
+            <th>
+                <a>Last Name</a>
+            </th>
+            <th>
+                <a>Email</a>
+            </th>
+            <th>
+                <a>Active Status</a>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                <a asp-action="BuildingList" asp-route-id="@item.Id">Building list</a>
+            <td>
+        </tr>
+        }
+    </tbody>
+</table>

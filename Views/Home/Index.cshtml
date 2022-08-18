@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<body>
+    <div id="load"></div>
+    <div id="contents">
+        <form id="form1" runat="server">
+            <div class="text-center">
+
+                <h1 class="display-4">Welcome</h1>
+                
+                
+                <p>
+                   <p>MANAGE ROLES <a asp-area="" asp-controller="role" asp-action="Index">MANAGE ROLES</a></p>
+                </p>
+                <a>To Create/ Edit users push "User List"</a>
+                <p>
+                    <p>USER LIST <a asp-area="" asp-controller="users" asp-action="Index">USER LIST</a> </p>
+                </p>
+            </div>
+        </form>
+    </div>
+</body>
