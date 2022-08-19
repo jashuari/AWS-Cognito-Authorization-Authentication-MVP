@@ -78,7 +78,7 @@ More info about migration here : https://aws.amazon.com/blogs/mobile/migrating-u
 
 
 ```
-Note: For the purpose of this lab, we are using the US-EAST-1 (N.Virginia)
+Note: For the purpose of this lab, we are using the EU-CENTRAL-1 (Frankfurt)
 region, please make a note of which region you are working in we creating Url’s
 and configuring applications.
 
