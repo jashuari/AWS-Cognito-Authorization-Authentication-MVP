@@ -37,9 +37,12 @@ More info about migration here : https://aws.amazon.com/blogs/mobile/migrating-u
 ----------------------------
 1. Need to have an AWS account
 2. Create a User Pool in cognito service
-3. Create an App client. ![image](https://user-images.githubusercontent.com/26839748/185515845-24dfb163-8308-449a-9d56-ae93e22f0aaa.png)
-4. Create domain name. ![image](https://user-images.githubusercontent.com/26839748/185515907-9c27b4f0-29e7-4d28-a921-aacce37f7533.png)
-5. Auth flows configuration. ![image](https://user-images.githubusercontent.com/26839748/185515991-9ba39c64-e6ac-46b9-a341-0c9f0a514d9d.png)
+3. Create an App client. 
+![image](https://user-images.githubusercontent.com/26839748/185515845-24dfb163-8308-449a-9d56-ae93e22f0aaa.png)
+4. Create domain name. 
+![image](https://user-images.githubusercontent.com/26839748/185515907-9c27b4f0-29e7-4d28-a921-aacce37f7533.png)
+5. Auth flows configuration. 
+![image](https://user-images.githubusercontent.com/26839748/185515991-9ba39c64-e6ac-46b9-a341-0c9f0a514d9d.png)
 6. In the appsettings.json file, under the AuthenticationCognito section, provide values as below.
 
 
