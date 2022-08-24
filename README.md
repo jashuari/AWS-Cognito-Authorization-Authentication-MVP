@@ -109,6 +109,8 @@ Test the application
 First start by creating a asp.net Core Identity account.
 Then sign in. Go to manage Roles and create roles.
 After creating roles go to update field where you can assign roles to the user.
-Log out then try to sign in with AWS login form with the same account.
+Log out then sign in with Identity dotnet account, if you login succesfully all your information
+will migrate to AWS Cognito User Pools. After that you can try to sign in with the same
+account in AWS auth.
 
 
